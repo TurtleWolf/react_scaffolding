@@ -1,10 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from '../shared/images/logo.svg';
+
+    // We import our Home component here...
+    import Home from './Home/Home';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+{/* Here we add our Home component to be render it */}
+<Home />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +25,8 @@ function App() {
           Learn React
         </a>
       </header>
+{/* Here we add our Home component to be render it */}
+<Home />
     </div>
   );
 }
