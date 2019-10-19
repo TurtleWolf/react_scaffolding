@@ -1,5 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 and then modified according to the first few chapters of the React Cook Book
+
+
+![alt text](https://raw.githubusercontent.com/TurtleWolf/react_scaffolding/master/ReactCookBook.png "Logo Title Text 1")
 
 
 
