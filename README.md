@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+and then modified according to the first few chapters of the React Cook Book
+
+
 
 ## Available Scripts
 
