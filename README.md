@@ -1,10 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
-and then modified according to the first few chapters of the React Cook Book
+# This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)  
 
+then modified according to the first few chapters of the React Cook Book
 
 ![alt text](https://raw.githubusercontent.com/TurtleWolf/react_scaffolding/master/ReactCookBook.png "Logo Title Text 1")
-
-
 
 ## Available Scripts
 
@@ -72,3 +70,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+``` bash
+ 1727  sudo apt purge nodejs
+ 1729  sudo apt remove nodejs
+ 1741  sudo npm uninstall -g create-react-app
+```
+
+``` bash
+ 1739  sudo apt install nodejs
+```
