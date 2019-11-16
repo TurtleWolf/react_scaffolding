@@ -72,11 +72,13 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 ``` bash
- 1727  sudo apt purge nodejs
- 1729  sudo apt remove nodejs
- 1741  sudo npm uninstall -g create-react-app
+sudo apt install nodejs
+npm install -g create-react-app@3.0.1
 ```
 
 ``` bash
- 1739  sudo apt install nodejs
+sudo apt purge nodejs
+sudo apt remove nodejs
+sudo npm uninstall -g create-react-app
+docker run -v ${PWD}:/usr/src/app -v /usr/src/app/node_modules -p 3000:3000 --rm react_scaffolding:dev
 ```

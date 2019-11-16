@@ -1,0 +1,10 @@
+version: '2.1'
+
+services:
+  react_scaffolding:
+    image: turtlewolfe/react_scaffolding:dev
+    build: .
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
